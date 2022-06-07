@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_symmetry_simples",
+  "info": {
+    "displayName": "Simple",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ImagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ]
+    },
+    "TitleColor": {
+      "type": "enumeration",
+      "enum": [
+        "Primary (#AF915E)",
+        "Secondary (#2E281F)"
+      ],
+      "default": "Primary (#AF915E)"
+    }
+  }
+}

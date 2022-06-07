@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page-booking",
     "pluralName": "page-bookings",
-    "displayName": "Page Booking"
+    "displayName": "Page Booking",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "banner": {
+    "Banner": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {

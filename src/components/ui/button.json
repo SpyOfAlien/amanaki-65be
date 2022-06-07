@@ -2,14 +2,15 @@
   "collectionName": "components_ui_buttons",
   "info": {
     "displayName": "button",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "label": {
+    "Label": {
       "type": "string"
     },
-    "type": {
+    "Type": {
       "type": "enumeration",
       "enum": [
         "Link",
@@ -18,19 +19,20 @@
         "Outlined"
       ]
     },
-    "color": {
+    "Color": {
       "type": "enumeration",
       "enum": [
         "Primary(#AF915E)",
         "Secondary(#FFFFFF)"
       ]
     },
-    "icon": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
