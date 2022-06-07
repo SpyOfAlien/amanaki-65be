@@ -20,6 +20,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "additionalServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::additional-service.additional-service"
     }
   }
 }
