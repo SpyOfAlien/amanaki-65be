@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_banner_full_height_banners",
+  "info": {
+    "displayName": "Full Screen Banner",
+    "icon": "laptop-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "ScrollDownLabel": {
+      "type": "string"
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
