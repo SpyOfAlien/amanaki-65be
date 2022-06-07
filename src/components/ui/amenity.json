@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ui_amenities",
+  "info": {
+    "displayName": "Amenity",
+    "icon": "dice-six"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

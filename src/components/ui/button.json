@@ -33,6 +33,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }
