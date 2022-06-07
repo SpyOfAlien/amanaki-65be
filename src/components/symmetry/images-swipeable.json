@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_symmetry_images_swipeables",
+  "info": {
+    "displayName": "Images Swipeable",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Overview": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ImagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ]
+    },
+    "TitleColor": {
+      "type": "enumeration",
+      "enum": [
+        "Primary",
+        "Secondary"
+      ]
+    }
+  }
+}
