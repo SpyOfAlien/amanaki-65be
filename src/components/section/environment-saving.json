@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_environment_savings",
+  "info": {
+    "displayName": "Environment Saving",
+    "icon": "dove",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "integer"
+    },
+    "Amount": {
+      "type": "string"
+    },
+    "Unit": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Icons": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

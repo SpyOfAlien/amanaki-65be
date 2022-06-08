@@ -2,19 +2,18 @@
   "collectionName": "components_ui_amenities",
   "info": {
     "displayName": "Amenity",
-    "icon": "dice-six"
+    "icon": "dice-six",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "Title": {
       "type": "string"
     },
-    "Icon": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+    "Amenities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::amenitie.amenitie"
     }
   }
 }

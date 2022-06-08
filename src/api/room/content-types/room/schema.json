@@ -67,7 +67,8 @@
       "type": "dynamiczone",
       "components": [
         "symmetry.simple",
-        "symmetry.images-swipeable"
+        "symmetry.images-swipeable",
+        "ui.amenity"
       ]
     },
     "Slug": {

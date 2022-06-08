@@ -62,7 +62,9 @@
       },
       "type": "dynamiczone",
       "components": [
-        "symmetry.simple"
+        "symmetry.simple",
+        "section.text-center",
+        "section.environment-saving"
       ]
     },
     "AdditionalServices": {
