@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slide_full_with_images",
+  "info": {
+    "displayName": "ImageOnly",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

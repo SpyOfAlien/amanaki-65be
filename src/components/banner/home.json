@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_banner_homes",
+  "info": {
+    "displayName": "Home",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ImageSlide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slide.full-with-image"
+    },
+    "AdditionalServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::additional-service.additional-service"
+    }
+  }
+}
