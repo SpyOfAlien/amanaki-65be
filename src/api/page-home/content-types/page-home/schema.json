@@ -1,0 +1,95 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "Page Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "banner.home"
+    },
+    "HotelOverview": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.text-center"
+    },
+    "Accommodation": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.home-accommodation"
+    },
+    "Galleries": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.gallery"
+    },
+    "RestaurantAndLounge": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.home-accommodation"
+    },
+    "HealthAndRelax": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.home-accommodation"
+    },
+    "Offers": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.home-accommodation"
+    },
+    "AdditionalServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::additional-service.additional-service"
+    }
+  }
+}

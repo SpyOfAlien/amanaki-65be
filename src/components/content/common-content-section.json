@@ -1,24 +1,22 @@
 {
-  "collectionName": "components_banner_homes",
+  "collectionName": "components_section_common_content_sections",
   "info": {
-    "displayName": "Home",
-    "icon": "archive",
+    "displayName": "Common Content",
+    "icon": "align-justify",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Heading": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
       "type": "string"
     },
     "Description": {
       "type": "text"
     },
-    "Button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "ui.button"
-    },
-    "BackgroundImage": {
+    "Images": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -26,10 +24,10 @@
         "images"
       ]
     },
-    "ImageSlide": {
+    "Button": {
       "type": "component",
       "repeatable": false,
-      "component": "slide.full-with-image"
+      "component": "ui.button"
     }
   }
 }

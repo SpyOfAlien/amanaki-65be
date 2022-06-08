@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_home_accommodations",
+  "info": {
+    "displayName": "Home Common Slide",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SlideItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.common-content-section"
+    }
+  }
+}
