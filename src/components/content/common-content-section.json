@@ -16,7 +16,7 @@
     "Description": {
       "type": "text"
     },
-    "Images": {
+    "Image": {
       "type": "media",
       "multiple": false,
       "required": false,
