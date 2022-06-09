@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_year_stats",
+  "info": {
+    "displayName": "Year Stats",
+    "icon": "chess-board"
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "integer"
+    },
+    "Amount": {
+      "type": "string"
+    },
+    "Unit": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

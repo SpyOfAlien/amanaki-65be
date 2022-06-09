@@ -7,28 +7,20 @@
   },
   "options": {},
   "attributes": {
-    "Year": {
-      "type": "integer"
-    },
-    "Amount": {
-      "type": "string"
-    },
-    "Unit": {
-      "type": "string"
-    },
-    "Description": {
+    "Title": {
       "type": "string"
     },
     "Icons": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
-    "Title": {
-      "type": "string"
+    "Stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.year-stats"
     }
   }
 }

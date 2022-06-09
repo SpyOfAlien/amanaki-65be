@@ -64,7 +64,8 @@
       "components": [
         "symmetry.simple",
         "section.text-center",
-        "section.environment-saving"
+        "section.environment-saving",
+        "symmetry.images-swipeable"
       ]
     },
     "AdditionalServices": {
