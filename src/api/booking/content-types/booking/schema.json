@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Booking"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Nationality": {
+      "type": "string"
+    },
+    "Adults": {
+      "type": "integer"
+    },
+    "Childrens": {
+      "type": "integer"
+    },
+    "BookingType": {
+      "type": "enumeration",
+      "enum": [
+        "Long term",
+        "Short term"
+      ]
+    },
+    "ArrivalDate": {
+      "type": "date"
+    },
+    "DipartureDate": {
+      "type": "date"
+    },
+    "LongTermRange": {
+      "type": "integer"
+    },
+    "PromotionCode": {
+      "type": "string"
+    },
+    "RoomType": {
+      "type": "enumeration",
+      "enum": [
+        "Amanaki Signature",
+        "Excutive Room",
+        "Junior Double/ Twin",
+        "Deluxe Double/ Twin",
+        "Family Room"
+      ]
+    },
+    "Breakfast": {
+      "type": "boolean"
+    },
+    "Fitness": {
+      "type": "boolean",
+      "default": true
+    },
+    "Pets": {
+      "type": "boolean",
+      "default": true
+    },
+    "RoomQuantity": {
+      "type": "integer"
+    },
+    "BookingStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Waiting",
+        "Inprogress",
+        "Done",
+        "Canceled"
+      ]
+    }
+  }
+}
