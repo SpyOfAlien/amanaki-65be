@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_room_special_requirements",
+  "info": {
+    "displayName": "Room Special Requirement",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SpecialRequirementForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.form"
+    },
+    "TermAndCondition": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.term-and-condition"
+    }
+  }
+}

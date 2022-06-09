@@ -79,6 +79,16 @@
       },
       "type": "uid",
       "targetField": "Name"
+    },
+    "SpecialRequirement": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.room-special-requirement"
     }
   }
 }
