@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_benefits",
+  "info": {
+    "displayName": "Benefit",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

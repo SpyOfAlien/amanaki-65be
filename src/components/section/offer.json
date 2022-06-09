@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_offers",
+  "info": {
+    "displayName": "Offer",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Offer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::offer.offer"
+    }
+  }
+}
