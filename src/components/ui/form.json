@@ -2,7 +2,8 @@
   "collectionName": "components_ui_forms",
   "info": {
     "displayName": "Form",
-    "icon": "border-style"
+    "icon": "border-style",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,6 +16,9 @@
       "type": "component",
       "repeatable": true,
       "component": "ui.input"
+    },
+    "Name": {
+      "type": "string"
     }
   }
 }

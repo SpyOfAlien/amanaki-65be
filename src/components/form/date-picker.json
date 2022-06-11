@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_form_date_pickers",
+  "info": {
+    "displayName": "DatePicker",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    }
+  }
+}

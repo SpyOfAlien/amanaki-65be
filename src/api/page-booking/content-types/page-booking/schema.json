@@ -26,17 +26,6 @@
       },
       "component": "banner.booking"
     },
-    "Form": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "dynamiczone",
-      "components": [
-        "ui.input"
-      ]
-    },
     "BookingButton": {
       "type": "component",
       "repeatable": false,
@@ -51,6 +40,34 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::additional-service.additional-service"
+    },
+    "PersonalForm": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "ui.dropdown",
+        "ui.input",
+        "form.checkbox",
+        "form.date-picker"
+      ]
+    },
+    "BookingOption": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "ui.dropdown",
+        "ui.input",
+        "form.checkbox",
+        "form.date-picker"
+      ]
     }
   }
 }

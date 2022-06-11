@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_options",
+  "info": {
+    "displayName": "DropdownOption",
+    "icon": "bolt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

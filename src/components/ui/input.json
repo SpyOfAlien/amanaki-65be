@@ -15,6 +15,9 @@
     },
     "Type": {
       "type": "string"
+    },
+    "Namme": {
+      "type": "string"
     }
   }
 }

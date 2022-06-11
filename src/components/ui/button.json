@@ -13,7 +13,6 @@
     "Type": {
       "type": "enumeration",
       "enum": [
-        "Link",
         "Text",
         "Container",
         "Outlined"
