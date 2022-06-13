@@ -19,6 +19,8 @@
     "@strapi/provider-upload-cloudinary": "^4.1.12",
     "@strapi/strapi": "4.1.12",
     "better-sqlite3": "7.4.6",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "strapi-provider-upload-do": "^3.6.6"
