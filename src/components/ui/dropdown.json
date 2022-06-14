@@ -17,6 +17,9 @@
       "type": "component",
       "repeatable": true,
       "component": "ui.option"
+    },
+    "DefaultValue": {
+      "type": "string"
     }
   }
 }

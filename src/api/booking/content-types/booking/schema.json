@@ -4,7 +4,8 @@
   "info": {
     "singularName": "booking",
     "pluralName": "bookings",
-    "displayName": "Booking"
+    "displayName": "Booking",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,18 +33,12 @@
     "BookingType": {
       "type": "enumeration",
       "enum": [
-        "Long term",
-        "Short term"
+        "Long Term",
+        "Short Term"
       ]
     },
     "ArrivalDate": {
       "type": "date"
-    },
-    "DipartureDate": {
-      "type": "date"
-    },
-    "LongTermRange": {
-      "type": "integer"
     },
     "PromotionCode": {
       "type": "string"
@@ -80,6 +75,18 @@
         "Done",
         "Canceled"
       ]
+    },
+    "AdditionalServices": {
+      "type": "enumeration",
+      "enum": [
+        "With Bathtup"
+      ]
+    },
+    "LongTermRange": {
+      "type": "string"
+    },
+    "DepartureDate": {
+      "type": "date"
     }
   }
 }

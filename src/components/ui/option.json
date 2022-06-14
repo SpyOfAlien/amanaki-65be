@@ -9,6 +9,9 @@
   "attributes": {
     "Label": {
       "type": "string"
+    },
+    "Value": {
+      "type": "string"
     }
   }
 }
