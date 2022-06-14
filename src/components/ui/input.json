@@ -16,7 +16,7 @@
     "Type": {
       "type": "string"
     },
-    "Namme": {
+    "Name": {
       "type": "string"
     }
   }
