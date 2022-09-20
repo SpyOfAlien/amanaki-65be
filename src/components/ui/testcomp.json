@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_testcomps",
+  "info": {
+    "displayName": "testcomp",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "testfield": {
+      "type": "string"
+    }
+  }
+}
