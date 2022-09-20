@@ -1,5 +1,3 @@
-const jwt = require("jsonwebtoken");
-
 module.exports = ({ env }) => {
   return {
     ckeditor: true,
@@ -18,14 +16,9 @@ module.exports = ({ env }) => {
     "users-permissions": {
       config: {
         jwt: {
-          expiresIn: "30d",
+          expiresIn: "7d",
         },
-        jwtSecret: jwt.sign(
-          {
-            amanaki: 65,
-          },
-          env("JWT_SECRET")
-        ),
+        jwtSecret: env("JWT_SECRET"),
       },
     },
   };
