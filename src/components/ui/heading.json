@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_ui_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string",
+      "required": true
+    },
+    "Tag": {
+      "type": "enumeration",
+      "enum": ["H1", "H2", "H3", "H4", "H5", "H6"]
+    },
+    "Color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "variants.color"
+    },
+    "Size": {
+      "type": "component",
+      "repeatable": false,
+      "component": "variants.size"
+    },
+    "Font": {
+      "type": "component",
+      "repeatable": false,
+      "component": "variants.font"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_variants_fonts",
+  "info": {
+    "displayName": "Font",
+    "icon": "font"
+  },
+  "options": {},
+  "attributes": {
+    "Value": {
+      "type": "enumeration",
+      "enum": [
+        "Brandon",
+        "Darleston",
+        "Valentina"
+      ]
+    }
+  }
+}

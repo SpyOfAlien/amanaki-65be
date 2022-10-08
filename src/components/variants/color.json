@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_variants_colors",
+  "info": {
+    "displayName": "Color",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Value": {
+      "type": "enumeration",
+      "enum": [
+        "Primary(#AF915E)",
+        "Secondary(#537963)",
+        "Black(#000000)",
+        "White(#FFFFFF)"
+      ],
+      "default": "Primary(#AF915E)"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ui_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "Color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "variants.color"
+    },
+    "Size": {
+      "type": "component",
+      "repeatable": false,
+      "component": "variants.size"
+    },
+    "Font": {
+      "type": "component",
+      "repeatable": false,
+      "component": "variants.font"
+    }
+  }
+}
