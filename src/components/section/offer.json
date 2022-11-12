@@ -2,23 +2,25 @@
   "collectionName": "components_section_offers",
   "info": {
     "displayName": "Offer",
-    "icon": "award"
+    "icon": "award",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "Title": {
       "type": "string"
     },
     "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Offer": {
+    "Offers": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::offer.offer"
     }
   }

@@ -18,10 +18,10 @@
         "images"
       ]
     },
-    "SlideItem": {
-      "type": "component",
-      "repeatable": true,
-      "component": "content.common-content-section"
+    "Rooms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::room.room"
     }
   }
 }

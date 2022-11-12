@@ -9,11 +9,18 @@
   "attributes": {
     "Text": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "Tag": {
       "type": "enumeration",
-      "enum": ["H1", "H2", "H3", "H4", "H5", "H6"]
+      "enum": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ]
     },
     "Color": {
       "type": "component",

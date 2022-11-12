@@ -22,7 +22,9 @@
       "type": "enumeration",
       "enum": [
         "Primary(#AF915E)",
-        "Secondary(#FFFFFF)"
+        "Secondary(#537963)",
+        "Black(#000000)",
+        "White(#FFFFFF)"
       ]
     },
     "Icon": {

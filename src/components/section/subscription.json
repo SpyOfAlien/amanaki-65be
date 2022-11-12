@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_subscriptions",
+  "info": {
+    "displayName": "Subscription",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.input"
+    },
+    "SubmitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "richtext"
+    }
+  }
+}

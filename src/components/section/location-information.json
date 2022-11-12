@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_location_informations",
+  "info": {
+    "displayName": "Location Information",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MainTitle": {
+      "type": "string"
+    },
+    "AdditionalTitle": {
+      "type": "string"
+    },
+    "Detail": {
+      "type": "richtext"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

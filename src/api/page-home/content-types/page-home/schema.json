@@ -34,7 +34,7 @@
           "localized": true
         }
       },
-      "component": "section.text-center"
+      "component": "section.overview"
     },
     "Accommodation": {
       "type": "component",
@@ -76,6 +76,11 @@
       },
       "component": "content.common-content-section"
     },
+    "AdditionalServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::additional-service.additional-service"
+    },
     "Offers": {
       "type": "component",
       "repeatable": false,
@@ -84,12 +89,27 @@
           "localized": true
         }
       },
-      "component": "section.home-accommodation"
+      "component": "section.offer"
     },
-    "AdditionalServices": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::additional-service.additional-service"
+    "NewLetterForm": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.subscription"
+    },
+    "HotelLocation": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.location-information"
     }
   }
 }

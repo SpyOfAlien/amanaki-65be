@@ -41,15 +41,13 @@
       },
       "type": "richtext"
     },
-    "Offers": {
-      "type": "component",
-      "repeatable": true,
+    "Overview": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "ui.offer-card"
+      "type": "text"
     }
   }
 }

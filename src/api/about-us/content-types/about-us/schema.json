@@ -63,7 +63,6 @@
       "type": "dynamiczone",
       "components": [
         "symmetry.simple",
-        "section.text-center",
         "section.environment-saving",
         "symmetry.images-swipeable"
       ]
