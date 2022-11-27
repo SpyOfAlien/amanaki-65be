@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_form_periods",
+  "info": {
+    "displayName": "TimePeriod",
+    "icon": "calendar-times",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    }
+  }
+}

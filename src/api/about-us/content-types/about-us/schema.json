@@ -37,9 +37,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -64,7 +62,9 @@
       "components": [
         "symmetry.simple",
         "section.environment-saving",
-        "symmetry.images-swipeable"
+        "symmetry.images-swipeable",
+        "section.simple-info",
+        "slide.full-with-image"
       ]
     },
     "AdditionalServices": {

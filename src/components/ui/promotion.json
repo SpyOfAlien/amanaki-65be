@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_promotions",
+  "info": {
+    "displayName": "Promotion",
+    "icon": "gift"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "CardBackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Detail": {
+      "type": "richtext"
+    },
+    "PromotionCode": {
+      "type": "string"
+    }
+  }
+}

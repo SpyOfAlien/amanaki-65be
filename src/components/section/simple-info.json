@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_simple_infos",
+  "info": {
+    "displayName": "SimpleInfo",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "TitleColor": {
+      "type": "enumeration",
+      "enum": [
+        "Primary(#AF915E)",
+        "Secondary(#537963)",
+        "Black(#000000)",
+        "White(#FFFFFF)"
+      ]
+    }
+  }
+}

@@ -48,6 +48,61 @@
         }
       },
       "type": "text"
+    },
+    "OfferPeriod": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "form.period"
+    },
+    "TermAndConditions": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.term-and-condition"
+    },
+    "CancelationPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.cancel-policy"
+    },
+    "Promotions": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.promotion"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "banner.booking"
+    },
+    "AdditionalServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::additional-service.additional-service"
     }
   }
 }

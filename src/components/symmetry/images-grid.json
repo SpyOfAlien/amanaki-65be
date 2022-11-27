@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_symmetry_images_grids",
+  "info": {
+    "displayName": "Images Grid",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

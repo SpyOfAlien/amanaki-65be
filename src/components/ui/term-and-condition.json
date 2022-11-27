@@ -9,9 +9,9 @@
     "Title": {
       "type": "string"
     },
-    "TermAndCondition": {
+    "TermAndConditions": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::term-and-condition.term-and-condition"
     }
   }

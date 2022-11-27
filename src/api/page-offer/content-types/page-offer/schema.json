@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "Heading": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "Benefit": {
       "type": "component",
       "repeatable": false,
@@ -43,6 +35,16 @@
         }
       },
       "component": "section.offer"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "banner.full-height-banner"
     }
   }
 }

@@ -1,6 +1,52 @@
 module.exports = ({ env }) => {
   return {
-    ckeditor: true,
+    ckeditor: {
+      enabled: true,
+      config: {
+        editor: {
+          toolbar: {
+            items: [
+              "heading",
+              "|",
+              "alignment",
+              "|",
+              "bold",
+              "italic",
+              "strikethrough",
+              "underline",
+              "subscript",
+              "superscript",
+              "|",
+              "link",
+              "|",
+              "bulletedList",
+              "numberedList",
+              "todoList",
+              "fontfamily",
+              "fontsize",
+              "fontColor",
+              "fontBackgroundColor",
+              "|",
+              "code",
+              "codeBlock",
+              "|",
+              "insertTable",
+              "|",
+              "outdent",
+              "indent",
+              "|",
+              "uploadImage",
+              "blockQuote",
+              "|",
+              ,
+              "undo",
+              "redo",
+            ],
+            shouldNotGroupWhenFull: true,
+          },
+        },
+      },
+    },
     email: {
       config: {
         provider: "sendgrid",
