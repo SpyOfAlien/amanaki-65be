@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
-  url: "https://content.amanaki.vn",
+  // url: "https://content.amanaki.vn",
 });
