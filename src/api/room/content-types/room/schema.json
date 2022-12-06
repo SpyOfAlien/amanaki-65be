@@ -4,7 +4,7 @@
   "info": {
     "singularName": "room",
     "pluralName": "rooms",
-    "displayName": "Room",
+    "displayName": "RoomTypes",
     "description": ""
   },
   "options": {
@@ -93,6 +93,11 @@
         }
       },
       "type": "text"
+    },
+    "Rooms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::room-list.room-list"
     }
   }
 }
