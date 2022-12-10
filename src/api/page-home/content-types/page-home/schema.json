@@ -56,26 +56,6 @@
       },
       "component": "ui.gallery"
     },
-    "RestaurantAndLounge": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "content.common-content-section"
-    },
-    "HealthAndRelax": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "content.common-content-section"
-    },
     "AdditionalServices": {
       "type": "relation",
       "relation": "oneToMany",
@@ -110,6 +90,11 @@
         }
       },
       "component": "section.location-information"
+    },
+    "ServiceApartments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
     }
   }
 }
