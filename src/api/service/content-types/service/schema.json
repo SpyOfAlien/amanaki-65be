@@ -92,7 +92,7 @@
       "relation": "oneToMany",
       "target": "api::additional-service.additional-service"
     },
-    "MediumThumbnail": {
+    "HomeThumbnail": {
       "type": "media",
       "multiple": false,
       "required": false,
