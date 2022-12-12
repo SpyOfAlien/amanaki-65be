@@ -64,7 +64,8 @@
         "symmetry.images-swipeable",
         "symmetry.simple",
         "ui.amenity",
-        "ui.button"
+        "ui.button",
+        "slide.full-with-image"
       ]
     },
     "Slug": {
@@ -100,14 +101,15 @@
       "target": "api::room-list.room-list"
     },
     "BannerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
