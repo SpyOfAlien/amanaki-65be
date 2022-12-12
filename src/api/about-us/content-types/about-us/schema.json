@@ -37,7 +37,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -60,17 +62,32 @@
       },
       "type": "dynamiczone",
       "components": [
-        "symmetry.simple",
         "section.environment-saving",
-        "symmetry.images-swipeable",
         "section.simple-info",
-        "slide.full-with-image"
+        "slide.full-with-image",
+        "symmetry.images-swipeable",
+        "symmetry.simple"
       ]
     },
     "AdditionalServices": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::additional-service.additional-service"
+    },
+    "BannerBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
