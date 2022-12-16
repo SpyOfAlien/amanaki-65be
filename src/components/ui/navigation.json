@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "VNLink": {
+      "type": "string"
+    },
+    "ENLink": {
+      "type": "string"
+    }
+  }
+}

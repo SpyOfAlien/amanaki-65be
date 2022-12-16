@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_social_medias",
+  "info": {
+    "displayName": "SocialMedia",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
