@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_banner_detail_pages",
+  "info": {
+    "displayName": "DetailPage",
+    "icon": "marker"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Overview": {
+      "type": "richtext"
+    }
+  }
+}

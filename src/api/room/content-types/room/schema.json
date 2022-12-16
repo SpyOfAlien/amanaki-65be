@@ -60,12 +60,12 @@
       "components": [
         "section.room-special-requirement",
         "section.simple-info",
+        "slide.full-with-image",
         "symmetry.images-grid",
         "symmetry.images-swipeable",
         "symmetry.simple",
         "ui.amenity",
-        "ui.button",
-        "slide.full-with-image"
+        "ui.button"
       ]
     },
     "Slug": {
@@ -100,21 +100,15 @@
       "relation": "oneToMany",
       "target": "api::room-list.room-list"
     },
-    "BannerBackground": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+    "DetailBanner": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "banner.detail-page"
     }
   }
 }

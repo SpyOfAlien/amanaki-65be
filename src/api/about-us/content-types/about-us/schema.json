@@ -74,20 +74,15 @@
       "relation": "oneToMany",
       "target": "api::additional-service.additional-service"
     },
-    "BannerBackground": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false,
+    "DetailBanner": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "banner.detail-page"
     }
   }
 }

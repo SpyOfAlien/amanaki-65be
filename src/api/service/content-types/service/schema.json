@@ -57,22 +57,6 @@
         }
       }
     },
-    "BannerBackground": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "Detail": {
       "pluginOptions": {
         "i18n": {
@@ -107,6 +91,16 @@
           "localized": true
         }
       }
+    },
+    "DetailBanner": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "banner.detail-page"
     }
   }
 }
