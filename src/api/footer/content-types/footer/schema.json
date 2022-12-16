@@ -67,6 +67,14 @@
         }
       },
       "component": "ui.navigation"
+    },
+    "CopyRight": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
