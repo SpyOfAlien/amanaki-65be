@@ -24,14 +24,6 @@
       },
       "type": "string"
     },
-    "TwinPrice": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "decimal"
-    },
     "Status": {
       "pluginOptions": {
         "i18n": {
@@ -43,14 +35,6 @@
         "Available",
         "Occupied"
       ]
-    },
-    "DoublePrice": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "decimal"
     },
     "Number": {
       "pluginOptions": {
@@ -64,6 +48,14 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::booking.booking"
+    },
+    "Price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "float"
     }
   }
 }

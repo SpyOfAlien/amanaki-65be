@@ -68,6 +68,14 @@
         "form.checkbox",
         "form.date-picker"
       ]
+    },
+    "BookingNote": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
