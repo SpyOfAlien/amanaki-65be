@@ -13,15 +13,13 @@
     "Overview": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
     "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "ImagePosition": {
       "type": "enumeration",
@@ -36,6 +34,9 @@
         "Primary",
         "Secondary"
       ]
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }
