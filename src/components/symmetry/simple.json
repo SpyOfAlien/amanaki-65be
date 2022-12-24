@@ -13,9 +13,6 @@
     "SubTitle": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
@@ -38,6 +35,9 @@
         "Secondary (#2E281F)"
       ],
       "default": "Primary (#AF915E)"
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }
