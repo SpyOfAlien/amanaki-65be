@@ -2,25 +2,27 @@
   "collectionName": "components_symmetry_images_grids",
   "info": {
     "displayName": "Images Grid",
-    "icon": "border-all"
+    "icon": "border-all",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Title": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
     "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }
