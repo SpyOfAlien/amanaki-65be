@@ -32,10 +32,7 @@
     },
     "BookingType": {
       "type": "enumeration",
-      "enum": [
-        "Long Term",
-        "Short Term"
-      ]
+      "enum": ["Long Term", "Short Term"]
     },
     "ArrivalDate": {
       "type": "date"
@@ -45,13 +42,7 @@
     },
     "RoomType": {
       "type": "enumeration",
-      "enum": [
-        "Amanaki Signature",
-        "Excutive Room",
-        "Junior Double/ Twin",
-        "Deluxe Double/ Twin",
-        "Family Room"
-      ]
+      "enum": ["Signature", "Deluxe", "Executive", "PremiumExecutive", "Family"]
     },
     "Breakfast": {
       "type": "boolean"
@@ -69,18 +60,11 @@
     },
     "BookingStatus": {
       "type": "enumeration",
-      "enum": [
-        "Waiting",
-        "Inprogress",
-        "Done",
-        "Canceled"
-      ]
+      "enum": ["Waiting", "Inprogress", "Done", "Canceled"]
     },
     "AdditionalServices": {
       "type": "enumeration",
-      "enum": [
-        "With Bathtup"
-      ]
+      "enum": ["With Bathtup"]
     },
     "LongTermRange": {
       "type": "string"
