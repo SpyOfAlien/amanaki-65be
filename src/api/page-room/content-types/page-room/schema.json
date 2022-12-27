@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_rooms",
+  "info": {
+    "singularName": "page-room",
+    "pluralName": "page-rooms",
+    "displayName": "Page Room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.detail-page"
+    }
+  }
+}

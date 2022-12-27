@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_services",
+  "info": {
+    "singularName": "page-service",
+    "pluralName": "page-services",
+    "displayName": "Page Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.detail-page"
+    }
+  }
+}
