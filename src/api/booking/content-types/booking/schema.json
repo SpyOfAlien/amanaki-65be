@@ -87,9 +87,6 @@
     },
     "DepartureDate": {
       "type": "date"
-    },
-    "Message": {
-      "type": "text"
     }
   }
 }
