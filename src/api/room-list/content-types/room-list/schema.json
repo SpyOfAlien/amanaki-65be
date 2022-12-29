@@ -44,9 +44,9 @@
       },
       "type": "integer"
     },
-    "BookingInfo": {
+    "Bookings": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::booking.booking"
     },
     "Price": {
