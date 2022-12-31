@@ -24,18 +24,6 @@
       },
       "type": "string"
     },
-    "Status": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "Available",
-        "Occupied"
-      ]
-    },
     "Number": {
       "pluginOptions": {
         "i18n": {
