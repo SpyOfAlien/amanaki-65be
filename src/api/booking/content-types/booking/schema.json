@@ -90,6 +90,9 @@
     },
     "Message": {
       "type": "text"
+    },
+    "Room": {
+      "type": "integer"
     }
   }
 }
