@@ -87,11 +87,6 @@
       },
       "type": "text"
     },
-    "Rooms": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::room-list.room-list"
-    },
     "DetailBanner": {
       "type": "component",
       "repeatable": false,
@@ -117,6 +112,30 @@
         }
       },
       "type": "float"
+    },
+    "MaximumAdults": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "MaximumChilds": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "RoomID": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
