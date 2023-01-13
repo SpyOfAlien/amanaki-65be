@@ -44,6 +44,11 @@
         }
       },
       "type": "float"
+    },
+    "RoomType": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room"
     }
   }
 }
